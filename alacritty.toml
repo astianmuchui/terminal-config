@@ -1,0 +1,106 @@
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#666666"
+blue = "#9fb9ff"
+cyan = "#a6dffe"
+green = "#6ac689"
+magenta = "#e0aaff"
+red = "#ff8a80"
+white = "#e6e6e6"
+yellow = "#ffe57f"
+
+[colors.cursor]
+cursor = "#ffad29"
+text = "#e6e6e6"
+
+[colors.normal]
+black = "#2a2a2a"
+blue = "#73aaff"
+cyan = "#7ccfff"
+green = "#49d19e"
+magenta = "#d48bff"
+red = "#ff655b"
+white = "#e6e6e6"
+yellow = "#ffd76e"
+
+[colors.primary]
+background = "#1a1a1a"
+foreground = "#e6e6e6"
+
+[cursor]
+style = "Underline"
+
+[env]
+TERM = "xterm-256color"
+
+[font.bold]
+family = "Liberation Mono"
+
+[font.bold_italic]
+family = "Liberation Mono"
+
+[font.italic]
+family = "Liberation Mono"
+
+[font.normal]
+family = "Liberation Mono"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[shell]
+args = ["--login"]
+program = "/bin/zsh"
+
+[window]
+decorations = "none"
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.92
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
